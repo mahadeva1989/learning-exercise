@@ -1,0 +1,195 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mahadevaprasad/Projects/37e19005-b29f-4fd9-888c-05098d7ab2ed/RestaurantCollectionTests/RestaurantCollectionTests.csproj": {}
+  },
+  "projects": {
+    "/Users/mahadevaprasad/Projects/37e19005-b29f-4fd9-888c-05098d7ab2ed/RestaurantCollection/RestaurantCollection.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mahadevaprasad/Projects/37e19005-b29f-4fd9-888c-05098d7ab2ed/RestaurantCollection/RestaurantCollection.WebApi.csproj",
+        "projectName": "RestaurantCollection.WebApi",
+        "projectPath": "/Users/mahadevaprasad/Projects/37e19005-b29f-4fd9-888c-05098d7ab2ed/RestaurantCollection/RestaurantCollection.WebApi.csproj",
+        "packagesPath": "/Users/mahadevaprasad/.nuget/packages/",
+        "outputPath": "/Users/mahadevaprasad/Projects/37e19005-b29f-4fd9-888c-05098d7ab2ed/RestaurantCollection/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mahadevaprasad/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.HttpsPolicy": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mahadevaprasad/Projects/37e19005-b29f-4fd9-888c-05098d7ab2ed/RestaurantCollectionTests/RestaurantCollectionTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mahadevaprasad/Projects/37e19005-b29f-4fd9-888c-05098d7ab2ed/RestaurantCollectionTests/RestaurantCollectionTests.csproj",
+        "projectName": "RestaurantCollectionTests",
+        "projectPath": "/Users/mahadevaprasad/Projects/37e19005-b29f-4fd9-888c-05098d7ab2ed/RestaurantCollectionTests/RestaurantCollectionTests.csproj",
+        "packagesPath": "/Users/mahadevaprasad/.nuget/packages/",
+        "outputPath": "/Users/mahadevaprasad/Projects/37e19005-b29f-4fd9-888c-05098d7ab2ed/RestaurantCollectionTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mahadevaprasad/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {
+              "/Users/mahadevaprasad/Projects/37e19005-b29f-4fd9-888c-05098d7ab2ed/RestaurantCollection/RestaurantCollection.WebApi.csproj": {
+                "projectPath": "/Users/mahadevaprasad/Projects/37e19005-b29f-4fd9-888c-05098d7ab2ed/RestaurantCollection/RestaurantCollection.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.9.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "XunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[2.1.26, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
